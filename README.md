@@ -8,9 +8,10 @@
   > http://localhost:8080/swagger-ui/index.html
 
 
-# DB schema 생성
 
-create schema test_scma authorization postgres;
+# DB schema 생성
+-  create schema test_scma authorization postgres;
+
 
 # 참조 사이트
 

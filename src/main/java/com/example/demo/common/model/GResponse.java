@@ -1,9 +1,7 @@
 package com.example.demo.common.model;
 
 import java.util.Date;
-
 import org.springframework.http.HttpStatus;
-
 import lombok.Data;
 
 @Data
