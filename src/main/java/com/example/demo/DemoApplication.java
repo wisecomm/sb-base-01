@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 @CrossOrigin
 // DataSourceAutoConfiguration.class : 초기 실행 시 url 에러시 디비 사용하지 않음
-@SpringBootApplication(exclude={DataSourceAutoConfiguration.class, SecurityAutoConfiguration.class})  
+// SecurityAutoConfiguration.class : 시큐리티 사용하지 않음 ( auth 페이지 나옴)
+@SpringBootApplication(exclude={SecurityAutoConfiguration.class})
 @MapperScan(basePackages = "com.example.demo.mapper")
 public class DemoApplication {
 

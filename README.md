@@ -5,6 +5,8 @@
 
 - 정상 실행 확인
   > 테스트 레스트 확인 : http://localhost:8080, http://localhost:8080/greeting
+  > http://localhost:8080/swagger-ui/index.html
+
 
 # DB schema 생성
 
