@@ -32,7 +32,15 @@ logging:
         tomcat: false
         catalina: false
 
+
+# Server port
+server:
+  port: 8090
+
 # Spring Boot Custom Value
+# JWT Properties
 jwt:
   # 2. spring Boot Security + Key 설정(* 반드시 32이상 글자로 구성되어야 함)
   secret: 7Hs9x2mK4Lp6Rw3tYzAqBcDfGjNvXeUi
+  access-token-validity: 1800
+  refresh-token-validity: 86400
